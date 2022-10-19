@@ -1,0 +1,61 @@
+<app-navbar></app-navbar>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+
+
+<div class="row g-4">
+    <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+
+    <label for="" class="form-label">Dress Type</label>
+    <input type="text" class="form-control" name="dresstype" [(ngModel)]="dresstype">
+</div>
+
+<div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+
+    <label for="" class="form-label">Dress Size</label>
+    <select name="dresssize" [(ngModel)]="dresssize" id="" class="form-control">
+        <option value="XS">XS</option>
+        <option value="S">S</option>
+        <option value="M">M</option>
+        <option value="L">L</option>
+        <option value="XL">XL</option>
+    </select>
+</div>
+
+<div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+
+    <label for="" class="form-label"> Description</label>
+<textarea name="description" [(ngModel)]="description" id="" cols="30" rows="10" class="form-control"></textarea>
+</div>
+
+<div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+    <label for="" class="form-label">Price</label>
+    <input type="text" class="form-control" name="price" [(ngModel)]="price">
+</div>
+
+
+
+
+
+
+<div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12-col-xxl-12">
+
+<button class="btn btn-info" [disabled]="status" (click)="readValues()">Submit</button>
+</div>
+
+
+
+
+</div>
+
+
+
+
+        </div>
+
+   
+</div>
+</div>
